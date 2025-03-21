@@ -46,7 +46,7 @@ const log = () => {
             placeholder="Enter your workout name"
           />
         </View>
-        <Text>Email:</Text>
+        <Text>Number of reps:</Text>
         <TextInput
           value={formData.email}
           onChangeText={(text) => handleChange("email", text)}
